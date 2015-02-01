@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Giant Robot Editor Idea</title>
+  <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../dist/css/main.css">
+  <script src="../dist/js/editor.js"></script>
+</head>
+<body>
+  <div id="content-area" class="container">
+    <div class="row">
+      <div class="col-md-offset-3 col-md-6 col-lg-offset-2 col-lg-8">
+        <div class="module-border-bottom module-helper-text module-title" contenteditable="true" data-module-content-type="header">
+          <span>Title</span>
+        </div>
+        <div id="modules">
+          <div class="module-container">
+            <div contenteditable="true" data-module-content-type="body" class="module-helper-text module-content">
+              <span>Text module</span>
+            </div>
+            <div class="module-controls hidden">
+              <span class="grabbable glyphicon glyphicon-menu-hamburger"></span>
+              <span class="removeable glyphicon glyphicon-remove"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

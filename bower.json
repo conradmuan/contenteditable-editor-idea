@@ -1,0 +1,22 @@
+{
+  "name": "giant-robot-editor",
+  "version": "1.0.0",
+  "authors": [
+    "Conrad Muan <con.muan@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Keypress": "dmauro/Keypress#~2.1.0"
+  },
+  "devDependencies": {
+    "Sortable": "RubaXa/Sortable#~1.0.1"
+  }
+}
